@@ -19,7 +19,7 @@ res.setHeader('Content-Type','application/json');
 	var response="";
     return res.json({
                    "fulfillmentText": response,
-                   "fulfillmentMessages": [{"text": {"text": ["This message from Claim API Service"]}}],
+                   "fulfillmentMessages": [{"text": {"text": ["Hello Welcome to Chatbot !!! This is an Webhook API call"]}}],
 				   "source":""
 				  });
 });
