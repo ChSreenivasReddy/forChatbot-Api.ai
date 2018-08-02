@@ -15,7 +15,7 @@ restService.use(bodyParser.json());
 
 restService.post('/echo', function(req, res) {
 res.setHeader('Content-Type','application/json');
-    var msg = req.body.queryResult.parameters['echoText'];
+    var msg = req.body.result.parameters['echoText'];
 	var response="";
     return res.json({
                    "fulfillmentText": response,
