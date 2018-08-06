@@ -19,7 +19,7 @@ res.setHeader('Content-Type','application/json');
 	var response="";
     return res.json({
                    "fulfillmentText": response,
-                   "fulfillmentMessages": [{"text": {"text": ["Report A Damage!!! Loss Types -->This is an Webhook API call for Claims....."]}}],
+                   "fulfillmentMessages": [{"text": {"text": ["Loss Types:Employee Occupational,Employee Accident,Employee Leisure,Enterpreneur Accident,Enterpreneur Occupational,Enterpreneur Leisure,Student Declaration"]}}],
 				   "source":""
 				  });
 });
