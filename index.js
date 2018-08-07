@@ -32,7 +32,7 @@ https.request(options, function(res) {
   res.setEncoding('utf8');
   res.on('data', function (chunk) {
     //console.log('BODY: ' + chunk);
-	resStatus='fulfillmentText';
+	resStatus='Loss Types:Employee Occupational,Employee Accident,Employee Leisure';
   });
 }).end();
 console.log("POST request to the Node.js method:End");
